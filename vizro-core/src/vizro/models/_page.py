@@ -15,6 +15,9 @@ from vizro.models._models_utils import _log_call, get_unique_grid_component_ids
 from .types import ComponentType, ControlType
 
 
+
+  
+
 class Page(VizroBaseModel):
     """A page in [`Dashboard`][vizro.models.Dashboard] with its own URL path and place in the `Navigation`.
 
