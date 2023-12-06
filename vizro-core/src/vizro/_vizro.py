@@ -15,7 +15,9 @@ logger = logging.getLogger(__name__)
 class Vizro:
     """The main class of the `vizro` package."""
 
-    def __init__(self, **kwargs):
+    def __init__(self, **kwargs
+                
+                ):
         """Initializes Dash app, stored in `self.dash`.
 
         Args:
