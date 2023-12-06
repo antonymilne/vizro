@@ -21,9 +21,7 @@ class ColRowGridLines(NamedTuple):
     row_end: int
 
 
-def _convert_to_combined_grid_coord(matrix: ma.MaskedArray
-
-                                    ) -> ColRowGridLines:
+def _convert_to_combined_grid_coord(matrix: ma.MaskedArray) -> ColRowGridLines:
     """Converts matrix coordinates from user `grid` to one combined grid area spanned by component i.
 
     Required for validation of grid areas spanned by components.
