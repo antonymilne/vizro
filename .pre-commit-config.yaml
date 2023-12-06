@@ -104,7 +104,3 @@ ci:
     - bandit
     - mypy
     - gitleaks
-
-
-
-    
