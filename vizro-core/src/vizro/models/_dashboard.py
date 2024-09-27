@@ -39,6 +39,7 @@ if TYPE_CHECKING:
     from vizro.models import Page
     from vizro.models._page import _PageBuildType
 
+
 logger = logging.getLogger(__name__)
 
 
